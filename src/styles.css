@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+.contents {
+  width: 400px;
+}
+.inputTodoArea {
+  background-color: antiquewhite;
+  height: 30px;
+}
+.incompleteTodoArea {
+  background-color: aqua;
+  min-height: 200px;
+}
+.completeTodoArea {
+  background-color: aquamarine;
+  min-height: 200px;
+}
+.todoList {
+  display: flex;
+  padding: 4px 0;
+}
+input {
+  margin-left: 5px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+p {
+  text-align: center;
+}
+button {
+  margin-left: 5px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+button:hover {
+  background-color: pink;
+  color: #fff;
+}
